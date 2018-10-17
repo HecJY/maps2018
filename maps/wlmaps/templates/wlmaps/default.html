@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is map that shows the location of the tweets</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+   <h1>This is an example map bult with mapbox</h1>
+   <div id='map' style='width: 400px; height: 300px;'></div>
+   <script>
+   mapboxgl.accessToken = 'pk.eyJ1IjoieWFuZzEyNzQiLCJhIjoiY2puY3FiYTl4MXlyYzNwb2VwN2doazlmYyJ9.O2_N1tuTZqHz_sr1D-aTnQ';
+   var map = new mapboxgl.Map({
+     container: 'map',
+     style: 'mapbox://styles/mapbox/streets-v10'
+   });
+   </script>
+  </body>
+</html>
