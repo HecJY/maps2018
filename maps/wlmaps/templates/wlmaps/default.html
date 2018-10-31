@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en-US">
   <head>
-    <title>This is map that shows the location of the tweets</title>
+    <title>West lafayette tweets</title>
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
   </head>
   <body>
-   <h1>NYC Tweets Display</h1>
-   <div id='map' width: "100%" style='height: 800px;'></div>
+   <h1>West Lafayette Tweets Display</h1>
+   <div id='map' width: "100%" style='height: 900px;'></div>
    <script>
    mapboxgl.accessToken = 'pk.eyJ1IjoieWFuZzEyNzQiLCJhIjoiY2puY3FiYTl4MXlyYzNwb2VwN2doazlmYyJ9.O2_N1tuTZqHz_sr1D-aTnQ';
    var map = new mapboxgl.Map({
      container: 'map',
      style: 'mapbox://styles/mapbox/streets-v10',
-     center: [-73.914,40.718],
-     zoom: 10.47
+     center: [-86.887,40.428],
+     zoom: 12.47
    });
    </script>
   </body>
